@@ -17,4 +17,6 @@ Phase 2 - Add ng-metadata and start creating TS files
 
 Phase 3 - Using TS in legacy JS files
 
-Next Phase - Converting all to TS
+Phase 4 - Converting all to TS
+
+Next Phase - Bootstrapping Angular 5
