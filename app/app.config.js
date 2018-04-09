@@ -8,14 +8,10 @@ angular.
 
       $routeProvider.
         when('/phones', {
-          templateUrl:'phone-list/phone-list.template.html',
-          controller: 'phoneList',
-          controllerAs: '$ctrl'
+          template:'<phone-list></phone-list>',
         }).
         when('/phones/:phoneId', {
-          templateUrl: 'phone-detail/phone-detail.template.html',
-          controller: 'phoneDetail',
-          controllerAs: '$ctrl'
+          template: '<phone-detail></phone-detail>',
         }).
         otherwise('/phones');
     }
