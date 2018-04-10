@@ -1,21 +1,15 @@
-import { bundle } from './panaya-decorators/panaya-decorators';
-import { AppModule } from './next-gen/app-module'
-
-'use strict';
-
-require('angular');
-require('angular-animate');
-require('angular-route');
-require('angular-resource');
-
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
-  'ngAnimate',
-  'ngRoute',
-  'core',
-  'phoneDetail',
-  'phoneList',
-  bundle(AppModule).name
-]);
-
-require('./imports.ts');
+import "angular";
+import "angular-animate";
+import "angular-route";
+import "angular-resource";
+import "./phonecatApp.module";
+import "./app.config";
+import "./app.animations";
+import "./core/core.module";
+import "./core/checkmark/checkmark.filter";
+import "./core/phone/phone.module";
+import "./core/phone/phone.service";
+import "./phone-list/phone-list.module";
+import "./phone-list/phone-list.controller";
+import "./phone-detail/phone-detail.module";
+import "./phone-detail/phone-detail.controller";
