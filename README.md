@@ -9,6 +9,7 @@ In this repository, we'll guide you through how to convert from JS to TS, and ev
 
 Phase 0 - Master branch. 
 Phonecat project with AngularJS 1.4, no webpack or npm, running with http-server:
+npm install http-server
 node .\node_modules\http-server\bin\http-server ./app -a localhost -p 8000
 
 Next phase: Webpack the JS files into a single bundle
