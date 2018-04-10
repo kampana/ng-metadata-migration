@@ -42,7 +42,8 @@
         "to-string-loader": "1.1.5",
         "typescript": "2.6.2",
         "webpack": "3.6.0",
-        "webpack-watch-time-plugin": "0.1.2"
+        "webpack-watch-time-plugin": "0.1.2",
+        "ng-metadata": "4.0.1"
     },
     "scripts": {
         "start": "webpack-dev-server --inline --progress --port 8000",
