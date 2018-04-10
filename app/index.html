@@ -1,34 +1,19 @@
 <!doctype html>
-<html lang="en" ng-app="phonecatApp">
-  <head>
-    <meta charset="utf-8">
-    <title>Google Phone Gallery</title>
-    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="app.animations.css" />
-
-    <script src="./libs/jquery/dist/jquery.js"></script>
-    <script src="./libs/angular.min.js"></script>
-    <script src="./libs/angular-animate.min.js"></script>
-    <script src="./libs/angular-resource.min.js"></script>
-    <script src="./libs/angular-route.min.js"></script>
-    <script src="./core/core.module.js"></script>
-    <script src="./core/checkmark/checkmark.filter.js"></script>
-    <script src="./core/phone/phone.module.js"></script>
-    <script src="./core/phone/phone.service.js"></script>
-    <script src="./phone-list/phone-list.module.js"></script>
-    <script src="./phone-list/phone-list.controller.js"></script>
-    <script src="./phone-detail/phone-detail.module.js"></script>
-    <script src="./phone-detail/phone-detail.controller.js"></script>
-    <script src="./app.module.js"></script>
-    <script src="./app.config.js"></script>
-    <script src="./app.animations.js"></script>
-  </head>
+<html>
   <body>
-
-    <div class="view-container">
-      <div ng-view class="view-frame"></div>
-    </div>
-
+    <my-app></my-app>
   </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Google Phone Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="app.css" />
+  <script src="/libs/core-js/client/shim.min.js"></script>
+  <script src="/libs/zone.js/dist/zone.js"></script>
+  <script src="/libs/reflect-metadata/Reflect.js"></script>
+  <script src="../build/demo-bundle.min.js"></script>
+</head>
+
+
 </html>

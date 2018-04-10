@@ -11,4 +11,12 @@ Phase 0 - Master branch.
 Phonecat project with AngularJS 1.4, no webpack or npm, running with http-server:
 node .\node_modules\http-server\bin\http-server ./app -a localhost -p 8000
 
-Next phase: Webpack the JS files into a single bundle
+Phase 1 - Webpack the JS files into a single bundle
+
+Phase 2 - Add ng-metadata and start creating TS files
+
+Phase 3 - Using TS in legacy JS files
+
+Phase 4 - Converting all to TS
+
+Phase 5 - Bootstrapping Angular 5
